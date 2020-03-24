@@ -1,5 +1,9 @@
-# curso_java_completo_udemy
+# Java COMPLETO 2020 Programação Orientada a Objetos +Projetos
  Curso mais didático e completo de Java e OO. UML, JDBC, JavaFX, Spring Boot, JPA, Hibernate, MySQL, MongoDB e muito mais
+
+#### Professor Nelio Alves. Graduado em Ciência da Computação e possui mestrado e doutorado em Engenharia de Software pela Universidade Federal de Uberlândia.
+
+### Vamos aprender no curso:
 
     - Dominar Programação Orientada a Objetos e linguagem Java
     - Criar soluções flexíveis, extensíveis e testáveis
