@@ -1,4 +1,4 @@
-package curso_java_completo_udemy_section_10.exercicio_proposto;
+package section_10_lista_matrizes.exercicio_proposto;
 
 import static java.lang.Math.round;
 

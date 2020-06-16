@@ -1,4 +1,4 @@
-package curso_java_completo_udemy_section_10.proposto_resolvido_matriz;
+package section_10_lista_matrizes.proposto_resolvido_matriz;
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class Programa {
             for (int j = 0; j < mat[i].length; j++) {
                 mat[i][j] = sc.nextInt();
             }
+
         }
 
         System.out.println("Main diagonal:");

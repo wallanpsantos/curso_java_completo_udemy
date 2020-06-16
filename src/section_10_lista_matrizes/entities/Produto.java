@@ -1,4 +1,4 @@
-package curso_java_completo_udemy_section_10.entities;
+package section_10_lista_matrizes.entities;
 
 import java.util.StringJoiner;
 

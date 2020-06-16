@@ -1,7 +1,6 @@
-package curso_java_completo_udemy_section_10.testes;
+package section_10_lista_matrizes.testes;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 

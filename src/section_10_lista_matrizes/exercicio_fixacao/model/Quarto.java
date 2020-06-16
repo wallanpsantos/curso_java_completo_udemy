@@ -1,4 +1,4 @@
-package curso_java_completo_udemy_section_10.exercicio_fixacao.model;
+package section_10_lista_matrizes.exercicio_fixacao.model;
 
 public class Quarto {
 

@@ -1,6 +1,6 @@
-package curso_java_completo_udemy_section_10.exercicio_fixacao;
+package section_10_lista_matrizes.exercicio_fixacao;
 
-import curso_java_completo_udemy_section_10.exercicio_fixacao.model.Quarto;
+import section_10_lista_matrizes.exercicio_fixacao.model.Quarto;
 
 import java.util.Scanner;
 

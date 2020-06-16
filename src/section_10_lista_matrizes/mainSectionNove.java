@@ -1,13 +1,11 @@
 /**
  *
  */
-package curso_java_completo_udemy_section_10;
+package section_10_lista_matrizes;
 
-import curso_java_completo_udemy_section_10.entities.Produto;
+import section_10_lista_matrizes.entities.Produto;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 /**

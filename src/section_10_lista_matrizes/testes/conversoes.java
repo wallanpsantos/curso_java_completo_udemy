@@ -1,4 +1,4 @@
-package curso_java_completo_udemy_section_10.testes;
+package section_10_lista_matrizes.testes;
 
 public class conversoes {
     public static void main(String[] args) {
