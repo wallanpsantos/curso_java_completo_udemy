@@ -7,6 +7,7 @@ public class Programa {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Digite um número: ");
         int n = sc.nextInt();
         int[][] mat = new int[n][n];
 
