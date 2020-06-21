@@ -1,6 +1,6 @@
 package section_13_enumeracaoComposicao.pedido.entities;
 
-import section_13_enumeracaoComposicao.pedido.StatusPedidoEnum;
+import section_13_enumeracaoComposicao.pedido.EnumStatusPedido;
 
 import java.util.Date;
 
@@ -9,15 +9,15 @@ public class OrdemEntity {
 
     private Integer id;
     private Date momento;
-    private StatusPedidoEnum statusPedidoEnum;
+    private EnumStatusPedido enumStatusPedido;
 
     public OrdemEntity() {
     }
 
-    public OrdemEntity(Integer id, Date momento, StatusPedidoEnum statusPedidoEnum) {
+    public OrdemEntity(Integer id, Date momento, EnumStatusPedido enumStatusPedido) {
         this.id = id;
         this.momento = momento;
-        this.statusPedidoEnum = statusPedidoEnum;
+        this.enumStatusPedido = enumStatusPedido;
     }
 
     public Integer getId() {
@@ -36,12 +36,12 @@ public class OrdemEntity {
         this.momento = momento;
     }
 
-    public StatusPedidoEnum getStatusPedidoEnum() {
-        return statusPedidoEnum;
+    public EnumStatusPedido getEnumStatusPedido() {
+        return enumStatusPedido;
     }
 
-    public void setStatusPedidoEnum(StatusPedidoEnum statusPedidoEnum) {
-        this.statusPedidoEnum = statusPedidoEnum;
+    public void setEnumStatusPedido(EnumStatusPedido enumStatusPedido) {
+        this.enumStatusPedido = enumStatusPedido;
     }
 
     @Override
@@ -49,7 +49,7 @@ public class OrdemEntity {
         return "OrdemEntity{" +
                 "id=" + id +
                 ", momento=" + momento +
-                ", statusPedidoEnum=" + statusPedidoEnum +
+                ", statusPedidoEnum=" + enumStatusPedido +
                 '}';
     }
 }
