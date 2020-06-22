@@ -3,6 +3,7 @@ package section_13_trabalhador.entities;
 import section_13_trabalhador.entities.enums.NiveisTrabalho;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class Trabalhador {
@@ -56,5 +57,24 @@ public class Trabalhador {
     public void adicionarContrato(ContratoHora contratoHora) {
         // pega lista de contratoHoras e adiciona o contratoHora
         contratoHoras.add(contratoHora);
+    }
+
+    public void removerContrato(ContratoHora contratoHora) {
+        contratoHoras.remove(contratoHora);
+    }
+
+    public Double rendimento(Integer ano, Integer mes) {
+        Double soma = this.salario;
+        Calendar calendar = Calendar.getInstance();
+        for (ContratoHora contratoHora : contratoHoras) {
+            calendar.setTime(contratoHora.getData());
+            Integer anoContrato = calendar.get(Calendar.YEAR);
+            Integer mesContrato = 1 + calendar.get(Calendar.MONTH);
+
+            if (anoContrato == ano && mesContrato == mes) {
+                soma += contratoHora.valorTotal();
+            }
+        }
+        return soma;
     }
 }
