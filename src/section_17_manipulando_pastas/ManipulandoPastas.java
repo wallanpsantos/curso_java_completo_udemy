@@ -25,6 +25,7 @@ public class ManipulandoPastas {
 
         boolean mkdir = new File(caminho + "\\pastaCriadaPeloJava").mkdir();
         if (mkdir) System.out.println("Pasta criada com sucesso");
+
         scanner.close();
     }
 }
