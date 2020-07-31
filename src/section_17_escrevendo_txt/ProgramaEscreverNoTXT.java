@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ProgramaEscreverNoTXT {
     public static void main(String[] args) {
-        String[] listaHerois = new String[]{"Capitã Marvel", "Spider-Man", "Feiticeira"};
+        String[] listaHerois = new String[]{"Visão", "Viuva Negra"};
 
         String pathHeroi = "src\\section_17_escrevendo_txt\\herois.txt";
 
