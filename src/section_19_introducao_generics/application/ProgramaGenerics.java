@@ -22,6 +22,7 @@ public class ProgramaGenerics {
 
         printService.exibirPrint();
         System.out.println("Primeiro: " + printService.primeiro());
+        
         scanner.close();
     }
 }
