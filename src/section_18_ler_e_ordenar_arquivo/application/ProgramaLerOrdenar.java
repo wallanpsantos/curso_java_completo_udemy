@@ -22,7 +22,12 @@ public class ProgramaLerOrdenar {
                 lista.add(linha);
                 linha = bufferedReader.readLine();
             }
+
+            // Deixa a lista em ordem alfabetica
             Collections.sort(lista);
+
+            // Comando abaixo mostra o ultimo nome que ficaria em ordem alfabetica
+            System.out.println(Collections.max(lista));
 
         } catch (IOException e) {
             e.printStackTrace();
