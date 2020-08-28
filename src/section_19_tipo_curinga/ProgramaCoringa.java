@@ -1,4 +1,4 @@
-package section_19_tipo_coringa;
+package section_19_tipo_curinga;
 
 import java.util.Arrays;
 import java.util.List;
