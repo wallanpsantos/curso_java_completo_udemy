@@ -1,4 +1,4 @@
-package section_20_comparator.entities;
+package section_20_lambda_comparator_consumer.entities;
 
 public class Product {
 
