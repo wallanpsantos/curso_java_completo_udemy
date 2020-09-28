@@ -8,7 +8,10 @@ public class ProgramaOrdenaData {
 
     public static void main(String[] args) {
 
-        System.out.println(listaDatas());
+        for (String data : listaDatas()) {
+            data.split(", ");
+            System.out.println(data);
+        }
 
     }
 
