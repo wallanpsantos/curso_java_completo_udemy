@@ -15,7 +15,7 @@ public class ProgramaStream {
         Stream<String> nomes = Stream.of("Itachi", "Minato", "Kakashi");
         System.out.println(Arrays.toString(nomes.toArray()));
 
-        Stream<Integer> numerosInfinitos = Stream.iterate(1, integer -> integer * 3);
+        Stream<Integer> numerosInfinitos = Stream.iterate(1, integer -> integer * 5);
         System.out.println(Arrays.toString(numerosInfinitos.limit(5).toArray()));
 
         /**
