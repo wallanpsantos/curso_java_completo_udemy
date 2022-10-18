@@ -36,5 +36,13 @@ public class DataCalendario {
 
         Date dateUTC = new Date();
         System.out.println("Data e hora UTC: " + simpleDateFormatUTC.format(dateUTC));
+
+         /**
+         * String para LocalDateTime Data e hora atual UTC
+         */
+        String dataEmString = "2022-10-18 10:00:30";
+        LocalDateTime dataHora = LocalDateTime.parse(dataEmString, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println(dataHora); // 2022-10-18T10:00:30
+
     }
 }
